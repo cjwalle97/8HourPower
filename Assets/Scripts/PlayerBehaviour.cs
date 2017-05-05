@@ -7,7 +7,6 @@ public class PlayerBehaviour : MonoBehaviour {
     private Collider body;
     private Rigidbody rb;
     private Vector3 Force;
-    public int Count;
 
     void Start()
     {

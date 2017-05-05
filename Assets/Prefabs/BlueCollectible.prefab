@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114281934340922006}
   m_Layer: 0
   m_Name: BlueCollectible
-  m_TagString: Collectible
+  m_TagString: Rare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Collectible: {fileID: 1781227772819352}
-  amount: 3
 --- !u!136 &136829218691819906
 CapsuleCollider:
   m_ObjectHideFlags: 1
