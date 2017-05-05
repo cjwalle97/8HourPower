@@ -26,5 +26,9 @@ public class PlayerBehaviour : MonoBehaviour {
         
         Force = new Vector3(hForce, rb.velocity.y, vForce);
         rb.velocity = Force;
-	}
+        if (Input.GetKeyDown(("g")))
+        {
+            Application.Quit();
+        }
+    }
 }
