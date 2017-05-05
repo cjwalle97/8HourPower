@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class CollectibleBehaviour : MonoBehaviour {
     public GameObject Collectible;
-	// Update is called once per frame
-	void Update () {
-	}
+    public int amount;
+
+    void OnTriggerEnter(Collider other)
+    {
+        CompareTag("Player");
+        DestroyObject(Collectible);
+    }
 }

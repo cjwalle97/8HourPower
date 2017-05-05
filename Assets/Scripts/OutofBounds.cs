@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class OutofBounds : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public GameObject Startingpoint;
+    
+    void OnTriggerEnter(Collider other)
+    {
+        CompareTag("Player");
+        other.transform.position = Startingpoint.transform.position; 
+    }
+
 }
